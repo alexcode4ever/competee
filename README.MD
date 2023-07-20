@@ -42,6 +42,8 @@ Dashboard Submission (Dark)
 ### Prerequisites
 
 - Install Node.js and npm on your machine.
+- Setup Supabase Project and configure supabaseClient.ts
+  > Use the Database structure from [db_dump.sql](db_dump.sql) in Supabase.
 
 ### Installation
 
