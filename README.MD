@@ -14,9 +14,23 @@ Competee is an open source online competition platform built using refine and Re
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/alexcode4ever/competee`
-2. Navigate to the project folder: `cd competee`
-3. Install dependencies: `npm install`
+1. Clone the repository:
+
+```bash
+git clone https://github.com/alexcode4ever/competee`
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd competee
+```
+
+3. Install dependencies:
+
+```bash
+npm install`
+```
 
 ### Usage
 
