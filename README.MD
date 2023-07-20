@@ -50,7 +50,7 @@ Dashboard Submission (Dark)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alexcode4ever/competee`
+git clone https://github.com/alexcode4ever/competee
 ```
 
 2. Navigate to the project folder:
@@ -62,7 +62,7 @@ cd competee
 3. Install dependencies:
 
 ```bash
-npm install`
+npm install
 ```
 
 ### Usage
