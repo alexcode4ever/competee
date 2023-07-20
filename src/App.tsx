@@ -139,6 +139,11 @@ function App() {
                   </Authenticated>
                 }
               >
+                <Route
+                  path="/dashboard"
+                  element={<NavigateToResource resource="competitions" />}
+                />
+
                 <Route path="/competitions">
                   <Route index element={<CompetitionList />} />
                   <Route path="create" element={<CompetitionCreate />} />
