@@ -122,12 +122,7 @@ function App() {
                       Header={() => <Header sticky />}
                       Sider={() => (
                         <ThemedSiderV2
-                          Title={({ collapsed }) => (
-                            <Logo
-                              // collapsed is a boolean value that indicates whether the <Sidebar> is collapsed or not
-                              collapsed={collapsed}
-                            />
-                          )}
+                          Title={() => <Logo />}
                           render={({ items, logout, collapsed }) => {
                             return (
                               <>
