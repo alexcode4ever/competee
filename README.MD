@@ -7,33 +7,31 @@
 </div>
 <br/>
 
-This [refine](https://github.com/refinedev/refine) project was generated with [superplate](https://github.com/pankod/superplate).
+## About Competee
+
+Competee is an open source online competition platform built using refine and React. It provides a dynamic and engaging environment for users to compete in various challenges, as well as create their own challenges for others to participate in. The platform fosters a vibrant community of creators and enthusiasts who can showcase their skills, exchange ideas, and vote for the best projects.
 
 ## Getting Started
 
-**refine** is a React-based framework for building data-intensive applications in no time ✨
+### Prerequisites
 
-Refine offers lots of out-of-the box functionality for rapid development, without compromising extreme customizability. Use-cases include, but are not limited to admin panels, B2B applications and dashboards.
+- Install Node.js and npm on your machine.
 
-## Available Scripts
+### Installation
 
-### Running the development server.
+1. Clone the repository: `git clone https://github.com/alexcode4ever/competee`
+2. Navigate to the project folder: `cd competee`
+3. Install dependencies: `npm install`
+
+### Usage
+
+1. Start development server
 
 ```bash
     npm run dev
 ```
 
-### Building for production.
-
-```bash
-    npm run build
-```
-
-### Running the production server.
-
-```bash
-    npm run start
-```
+2. Navigate to your localhost server and have fun!
 
 ## Learn More
 

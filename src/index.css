@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button[type="submit"] {
+  background-color: dodgerblue !important;
+  color: white !important;
+}
+
+.ant-btn-primary {
+  background-color: dodgerblue !important;
+  color: white !important;
+}

@@ -164,7 +164,7 @@ const authProvider: AuthBindings = {
       },
     };
   },
-  logout: async () => {
+  logout: async ({ redirectPath } = {}) => {
     const { error } = await supabaseClient.auth.signOut();
 
     if (error) {
@@ -174,6 +174,12 @@ const authProvider: AuthBindings = {
       };
     }
 
+    if (redirectPath) {
+      return {
+        success: true,
+        redirectTo: redirectPath,
+      };
+    }
     return {
       success: true,
       redirectTo: "/",
