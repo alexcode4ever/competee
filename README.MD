@@ -1,10 +1,6 @@
 # Competee
 
-<div align="center" style="margin: 30px;">
-    ![Screenshot](banner.jpg)
-    </a>
-</div>
-<br/>
+![Screenshot](banner.jpg)
 
 ## About Competee
 
